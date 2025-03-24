@@ -1,7 +1,7 @@
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click", () => {
-  fetch("http://localhost:1998", {
+  fetch("https://renserver-kyvn.onrender.com", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
